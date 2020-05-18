@@ -24,6 +24,7 @@ function Header() {
           <li>
             <a href="#projects">Projects</a>
           </li>
+          {/*
           <li>
             <a href="#opensource">Open Source</a>
           </li>
@@ -33,6 +34,7 @@ function Header() {
           <li>
             <a href="#talks">Talks</a>
           </li>
+          */}
           <li>
             <a href="#achievements">Achievements</a>
           </li>

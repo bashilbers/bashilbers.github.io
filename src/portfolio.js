@@ -7,21 +7,21 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji("A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  username: "Sebastiaan Hilbers",
+  title: "Hi all, I'm Sebastiaan",
+  subTitle: emoji("Passionate freelance fullstack developer with 10+ years of experience based in Den Bosch, The" +
+    " Netherlands. I specialize in Enterprise apps (Symfony 4/5 and Vue.js)"),
+  resumeLink: "https://drive.google.com/file/d/1s8NXO95x_wvPSxnJeBiMm01Z8Pl5ayxi/view?usp=sharing"
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7"
+  github: "https://github.com/bashilbers",
+  linkedin: "https://www.linkedin.com/in/sebastiaan-hilbers-b4a3b327/",
+  gmail: "sebastiaan@hilbers.tech",
+  gitlab: "https://gitlab.com/sebastiaan5"
   // Instagram and Twitter are also supported in the links!
 };
 
@@ -32,8 +32,12 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Applying Design Pattersn & DDD"),
+    emoji("⚡ Integration of third party services"),
+    emoji("⚡ BDD, TDD and writing clean code"),
+    emoji("⚡ Creating Monolithic/Microsevices and/or cloud functions"),
+    emoji("⚡ Working with containers (Docker, ECR, Kubernetes etc.)"),
+    emoji("⚡ CI/CD pipelines"),
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -41,32 +45,28 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "GIT",
+      fontAwesomeClassname: "fab fa-git"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
+      skillName: "symfony",
+      fontAwesomeClassname: "fab fa-symfony"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "npm",
@@ -85,8 +85,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "lambda",
+      fontAwesomeClassname: "fab fa-lambda"
     },
     {
       skillName: "docker",
@@ -101,16 +101,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design",  //Insert stack or technology you have experience in
-      progressPercentage: "90%"  //Insert relative proficiency in percentage
+      Stack: "PHP7",  //Insert stack or technology you have experience in
+      progressPercentage: "95%"  //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "ES6",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Devops",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Frontend development",
+      progressPercentage: "40%"
     }
   ]
 };
@@ -119,8 +123,8 @@ const techStack = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  githubConvertedToken: "Your Github Converted Token",
-  githubUserName: "Your Github Username",
+  githubConvertedToken: null,
+  githubUserName: 'bashilbers',
   showGithubProfile :"true" // Set true or false to show Contact profile using Github, defaults to false 
 };
 
@@ -132,12 +136,32 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
+      image: "https://media-exp1.licdn.com/dms/image/C560BAQFZBRxxNbSIng/company-logo_200_200/0?e=1597881600&v=beta&t=wh98GpQ1gl5Hk4h1a7CVc9lWLj7ny3Gfyno5Zka9vEE",
       link: "http://saayahealth.com/"
     },
     {
-      image: "https://drive.google.com/uc?id=1MXoXcQRK-pH8J82wyjCW4SJk5AxJe7tf",
-      link: "http://nextu.se/"
+      image: "https://media-exp1.licdn.com/dms/image/C4D0BAQGXmrFK-fc0qg/company-logo_200_200/0?e=1597881600&v=beta&t=psnWe02BlnYmP37KyxGr36skBm-Re5EQ84f84mhoPYw",
+      link: "http://logisticforce.nl"
+    },
+    {
+      image: "https://media-exp1.licdn.com/dms/image/C4E0BAQEg7abOy57QrA/company-logo_200_200/0?e=1597881600&v=beta&t=rt0kVNCbkUulWwwPtjU6p5WxCkHECDKg7YOvrUcMi4k",
+      link: "http://basebuilder.com"
+    },
+    {
+      image: "https://media-exp1.licdn.com/dms/image/C4D0BAQHLedUVS6I9xw/company-logo_200_200/0?e=1597881600&v=beta&t=JZNa4SmLMsywngvFUfhJKnEdTydf1cNnjr4zD3yTw1Q",
+      link: "http://adchieve.com"
+    },
+    {
+      image: "https://media-exp1.licdn.com/dms/image/C4E0BAQHeN8_Y4gxzJg/company-logo_200_200/0?e=1597881600&v=beta&t=u-6FfxVnK5677qBh_mLCz_CpnsbXCUrRwJKiVjQCrs4",
+      link: "http://tribal-im.com"
+    },
+    {
+      image: "https://media-exp1.licdn.com/dms/image/C4E0BAQFOlKKUzA4Png/company-logo_200_200/0?e=1597881600&v=beta&t=b9I-M5JBqo1bQdJS6-3FER-5E05c5q2ObeNWPJWZlTM",
+      link: "http://insiders.nl"
+    },
+    {
+      image: "https://media-exp1.licdn.com/dms/image/C560BAQF9aAW_GW0FBw/company-logo_200_200/0?e=1597881600&v=beta&t=vZipd68nZreGSFN_MVhaM53iGdmiCTCYX_GdI3DkdZ8",
+      link: "http://tradetracker.com"
     }
   ]
 };
@@ -150,33 +174,6 @@ const achievementSection = {
   subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achivementsCards: [
-    {
-      title: "Google Code-In Finalist",
-      subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image:
-        "https://1.bp.blogspot.com/-Ig-v1tDXZt4/XDODmZvWp1I/AAAAAAAAB0A/KtbFdBPFVQw2O15FekkIR0Yg8MUp--rngCLcBGAs/s1600/GCI%2B-%2BVertical%2B-%2BGray%2BText%2B-%2BWhite%2BBG.png",
-      footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
-      ]
-    },
-    {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Google_Assistant_logo.svg/1200px-Google_Assistant_logo.svg.png",
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu93Bd6LDbxPEOXr-hfLqLYzmHny8c0MJoI3exQP-lwpFLRT7g&s",
-      footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
-      ]
-    }
   ]
 };
 

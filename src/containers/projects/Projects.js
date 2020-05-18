@@ -11,7 +11,8 @@ export default function Projects() {
   const [repo, setrepo] = useState([]);
 
   useEffect(() => {
-    getRepoData();
+    if (openSource.githubConvertedToken && openSource.githubUserName)
+      getRepoData();
   }, []);
 
   function getRepoData() {
