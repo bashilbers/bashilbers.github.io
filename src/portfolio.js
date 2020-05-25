@@ -32,7 +32,7 @@ const skillsSection = {
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Applying Design Pattersn & DDD"),
+    emoji("⚡ Applying Design Patterns & DDD"),
     emoji("⚡ Integration of third party services"),
     emoji("⚡ BDD, TDD and writing clean code"),
     emoji("⚡ Creating Monolithic/Microsevices and/or cloud functions"),
@@ -102,15 +102,15 @@ const techStack = {
     },
     {
       Stack: "ES6",
-      progressPercentage: "70%"
+      progressPercentage: "80%"
     },
     {
       Stack: "Devops",
-      progressPercentage: "50%"
+      progressPercentage: "70%"
     },
     {
       Stack: "Frontend development",
-      progressPercentage: "40%"
+      progressPercentage: "60%"
     }
   ]
 };
@@ -132,31 +132,31 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: "https://media-exp1.licdn.com/dms/image/C560BAQFZBRxxNbSIng/company-logo_200_200/0?e=1597881600&v=beta&t=wh98GpQ1gl5Hk4h1a7CVc9lWLj7ny3Gfyno5Zka9vEE",
+      image: require("./assests/images/funix.png"),
       link: "https://funix.nl"
     },
     {
-      image: "https://media-exp1.licdn.com/dms/image/C4D0BAQGXmrFK-fc0qg/company-logo_200_200/0?e=1597881600&v=beta&t=psnWe02BlnYmP37KyxGr36skBm-Re5EQ84f84mhoPYw",
+      image: require("./assests/images/logisticforce.png"),
       link: "https://logisticforce.nl"
     },
     {
-      image: "https://media-exp1.licdn.com/dms/image/C4E0BAQEg7abOy57QrA/company-logo_200_200/0?e=1597881600&v=beta&t=rt0kVNCbkUulWwwPtjU6p5WxCkHECDKg7YOvrUcMi4k",
+      image: require("./assests/images/basebuilder.png"),
       link: "https://basebuilder.com"
     },
     {
-      image: "https://media-exp1.licdn.com/dms/image/C4D0BAQHLedUVS6I9xw/company-logo_200_200/0?e=1597881600&v=beta&t=JZNa4SmLMsywngvFUfhJKnEdTydf1cNnjr4zD3yTw1Q",
+      image: require("./assests/images/adchieve.png"),
       link: "https://adchieve.com"
     },
     {
-      image: "https://media-exp1.licdn.com/dms/image/C4E0BAQHeN8_Y4gxzJg/company-logo_200_200/0?e=1597881600&v=beta&t=u-6FfxVnK5677qBh_mLCz_CpnsbXCUrRwJKiVjQCrs4",
+      image: require("./assests/images/tribal.png"),
       link: "https://www.riffonline.com/"
     },
     {
-      image: "https://media-exp1.licdn.com/dms/image/C4E0BAQFOlKKUzA4Png/company-logo_200_200/0?e=1597881600&v=beta&t=b9I-M5JBqo1bQdJS6-3FER-5E05c5q2ObeNWPJWZlTM",
+      image: require("./assests/images/insiders.png"),
       link: "https://insiders.nl"
     },
     {
-      image: "https://media-exp1.licdn.com/dms/image/C560BAQF9aAW_GW0FBw/company-logo_200_200/0?e=1597881600&v=beta&t=vZipd68nZreGSFN_MVhaM53iGdmiCTCYX_GdI3DkdZ8",
+      image: require("./assests/images/tradetracker.jpeg"),
       link: "https://tradetracker.com"
     }
   ]
